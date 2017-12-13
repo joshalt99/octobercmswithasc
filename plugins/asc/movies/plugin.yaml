@@ -1,0 +1,16 @@
+plugin:
+    name: 'asc.movies::lang.plugin.name'
+    description: 'asc.movies::lang.plugin.description'
+    author: asc
+    icon: oc-icon-video-camera
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Movies
+        url: asc/movies/movies
+        icon: icon-video-camera
+        sideMenu:
+            side-menu-item:
+                label: Genres
+                url: asc/movies/genres
+                icon: icon-tag

@@ -1,0 +1,10 @@
+name: Movies
+form: $/asc/movies/models/movie/fields.yaml
+modelClass: Asc\Movies\Models\Movie
+defaultRedirect: asc/movies/movies
+create:
+    redirect: 'asc/movies/movies/update/:id'
+    redirectClose: asc/movies/movies
+update:
+    redirect: asc/movies/movies
+    redirectClose: asc/movies/movies

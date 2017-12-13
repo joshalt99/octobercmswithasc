@@ -1,0 +1,22 @@
+description = "Navigation bar"
+==
+<section id="navbar" class="m-b-3">
+	<nav class="navbar navbar-dark bg-inverse navbar-fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="{{ 'homepage'|page }}">ASC</a>
+
+			<ul class="nav navbar-nav pull-xs-right">
+				<li class="nav-item{{ this.page.baseFileName == 'homepage' ? ' active' }}">
+					<a class="nav-link" href="{{ 'homepage'|page }}">Home</a>
+				</li>
+
+
+				<li class="nav-item{{ this.page.baseFileName == 'movies' ? ' active' }}">
+					<a class="nav-link" href="{{ 'movies'|page }}">Movies</a>
+				</li>
+
+
+			</ul>
+		</div>
+	</nav>
+</section>

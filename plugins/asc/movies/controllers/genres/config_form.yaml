@@ -1,0 +1,10 @@
+name: Genres
+form: $/asc/movies/models/genre/fields.yaml
+modelClass: Asc\Movies\Models\Genre
+defaultRedirect: asc/movies/genres
+create:
+    redirect: 'asc/movies/genres/update/:id'
+    redirectClose: asc/movies/genres
+update:
+    redirect: asc/movies/genres
+    redirectClose: asc/movies/genres

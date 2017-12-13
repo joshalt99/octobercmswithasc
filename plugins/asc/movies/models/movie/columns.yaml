@@ -1,0 +1,18 @@
+columns:
+    name:
+        label: Name
+        type: text
+        searchable: true
+        sortable: true
+    year:
+        label: Year
+        type: number
+        sortable: true
+    created_at:
+        label: 'Created On'
+        type: date
+        sortable: true
+    updated_at:
+        label: 'Updated On'
+        type: date
+        sortable: true
